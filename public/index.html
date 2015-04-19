@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div id="header">
+    </div>
+
+    <div id="container">
+        <form id="inputControls">
+            <input type="text" id="searchBox" class="search" placeholder="What are you looking for?" required>
+            <input type="button" id="submitButton" class="button" value="Search">
+            <select class="selectDist" id="distSelect">
+              <option value="1">&#60; 1</option>
+              <option value="2">&#60; 2</option>
+              <option value="5">&#60; 5</option>
+              <option value="10">&#60; 10</option>
+              <option value="25">&#60; 25</option>
+              <option value="50">&#60; 50</option>
+            </select>
+            <select class="selectDist" id="unitSelect">
+              <option value="miles">Miles</option>
+              <option value="km">KM</option>
+            </select>
+        </form>
+        <div id="disp">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
